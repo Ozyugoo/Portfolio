@@ -1,1 +1,7 @@
-I am Ugoo-Okonkwo Stella Ozioma and this is my portfolio website.
+My Official Portfolio Website.
+
+Built using - React.
+
+Currently, two official plugins are available:
+
+
