@@ -1,3 +1,5 @@
+import "./header.css"
+
 function Header() {
   return (
     <>
@@ -7,9 +9,9 @@ function Header() {
       <div className="nav-bar">
         <nav>
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
       </div>
