@@ -1,3 +1,5 @@
+import "./body.css"
+
 function Body() {
   return (
     <>
@@ -22,6 +24,9 @@ function Body() {
 
       <div className="self-intro">
         <h2>FEATURED PROJECTS</h2>
+        <p>
+          Here are some of the projects I worked on that showcased my skills and passion for front-end development.
+        </p>
       </div>
     </>
   )

@@ -1,0 +1,11 @@
+.self-intro {
+    width: 30%;
+    margin-top: 10px;
+    margin-left: 55px;
+  }
+  
+  .self-intro > p {
+    font-size: 12px;
+    font-weight: 100;
+    margin: 20px 0;
+  }

@@ -43,13 +43,4 @@
     color: inherit;
   }
   
-  .self-intro {
-    width: 26%;
-    margin-top: 10px;
-    margin-left: 55px;
-  }
   
-  .self-intro > p {
-    font-size: 10px;
-    font-weight: 100;
-  }
