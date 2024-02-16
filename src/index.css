@@ -1,7 +1,7 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  font-weight: 400;
+  width: 90vw;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -13,48 +13,21 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-div {
-  display: flex;
-}
-
-header {
+* {
   margin: 0;
   padding: 0;
-  width: 100%;  
-  display: flex;
-  flex-direction: column;
+  box-sizing: border-box;
 }
 
-.header-container {
-  width: 50%;
-  float: left;
-}
-
-.nav-bar {
-  width: 50%;  
-  float: inline-end;
-}
-
-.name {
-  font-weight: 400;
-  font-size: 16px;
-  padding: 10px;
+hr {
+  padding: 1px;
   margin: 20px;
+  background-color: #ccc;
 }
 
-.nav-bar > nav {
-  width: 100%;
-  margin: auto 10px;
+button {
+  color: #000000;
+  background-color: rgb(237, 237, 159);
+  padding: 10px;
+  font-size: 10px;
 }
-
-.nav-bar > nav > ul {
-  width: 100%;
-}
-
-.nav-bar > nav > ul > li {
-  list-style-type: none;
-  float: left;
-  width: 25%;  
-  justify-items: left;
-}
-
