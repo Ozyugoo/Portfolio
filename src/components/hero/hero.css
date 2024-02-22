@@ -1,0 +1,96 @@
+.hero-container {
+  display: block;
+}
+
+.self-intro, .hero-img {
+    width: 33%;
+    margin-top: 10px;
+    margin-left: 55px;
+    margin-bottom: 50px;
+  }
+  
+  .self-intro > p {
+    font-size: 12px;
+    font-weight: 100;
+    margin: 20px 0;
+  }
+
+ .myImage {
+    width: 250px;
+    height: 340px;
+    object-fit: cover;
+}
+
+.btn-container {
+  display: flex;
+}
+.icon-box {
+  width: 30%;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 0;
+}
+
+.bttn {
+  width: 70%;
+}
+
+
+.icon {
+  color: rgb(237, 237, 159);
+  width: 40px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+@media screen and (min-width:700px) {
+
+  .hero-container {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .self-intro, .hero-img {
+    width: 45%;
+  }
+
+  .bttn {
+    width: 140px;
+  }
+
+  .icon {
+    margin-left: 0px;
+  }
+
+  /* @media screen and (width: 768px) { */
+    .hero-container {
+      margin: auto;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .self-intro, .hero-img {
+      margin-left: 0px;
+    }
+
+
+  .self {
+    font-size: 33px;
+  }
+
+    .myImage {
+      margin-right: 20px;
+      margin-left: 20px;
+    }
+
+    
+    .icon {
+      margin-left: 0px;
+    }
+
+  }
+  
