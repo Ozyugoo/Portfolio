@@ -19,8 +19,7 @@
   }
   
   .nav-bar > nav {   
-    display: flex;
-    flex-direction: column;
+    display: block;
   }
   
   .nav-bar > nav > ul > li {
@@ -58,13 +57,16 @@
 
     .nav-bar > nav > ul {
       display: flex;
+      margin-left: 120px;
+    }
+
+    .nav-bar > nav > ul > li {     
+      float: right;
+      width: 50%;
+      justify-content: space-evenly;
     }
 
     .nav-bar > nav > ul > li {
-      float: left;
-      width: 100%;
-      justify-content: space-evenly;
-      margin-left: 10px;
-      margin-right: 10px;
+      width: 30%;
     }
   }

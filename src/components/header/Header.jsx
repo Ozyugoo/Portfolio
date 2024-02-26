@@ -13,9 +13,9 @@ function Header() {
         <div className="nav-bar .col4">
           <nav>
               <ul className=".col12">
-                  <li className=".col2"><a href="#">Home</a></li>
-                  <li className=".col2"><a href="#">About</a></li>
-                  <li className=".col2"><a href="#">Contact</a></li>
+                  <li className=".col1"><a href="#">Home</a></li>
+                  <li className=".col1"><a href="#">About</a></li>
+                  <li className=".col1"><a href="#">Contact</a></li>
               </ul>
           </nav>
         </div>

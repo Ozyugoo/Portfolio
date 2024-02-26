@@ -1,13 +1,14 @@
 import myImage from '../../assets/Hero-image (1).png'
 import "./hero.css"
 import FontIcon from './FontIcon'
+import '../body/body.css'
 
 function Hero() {
   
   return (
     <>
       <div className='hero-container'>
-        <div className="self-intro">
+        <div className="self-intro .col6">
           <h1 className="self">
             Hello, I am Stella Ozioma Ugoo-Okonkwo&middot;
           </h1>
@@ -27,7 +28,7 @@ function Hero() {
           </div>
         </div>
 
-        <div className='hero-img'>
+        <div className='hero-img .col6'>
           <img src={myImage} alt="My Image" className='myImage'/>
         </div>
       </div>
