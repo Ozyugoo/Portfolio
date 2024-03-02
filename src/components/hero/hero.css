@@ -6,10 +6,27 @@
 
 .hero-container {
   width: 100%;
-  padding: 10px;
+  /* padding: 10px; */
   display: flex;
   /* margin: auto; */
-  justify-content: center;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.self {
+  font-size: 48px;
+}
+
+.self-intro {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.self-intro > p {
+  font-size: 14px;
+  font-weight: 200;
+  margin: 10px;
   align-items: center;
 }
 
@@ -21,43 +38,18 @@
   margin-left: 0px;
 }
 
-.self {
-  font-size: 50px;
-}
-
-.self-intro {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-
-.self-intro > p {
-  font-size: 12px;
-  font-weight: 200;
-  margin: 10px;
-  align-items: center;
-}
-
-.hero-img {
-  width: 100%;
-  /* padding: 50px; */
-}
-
-.myImage { 
-  width: 80%;
-  object-fit: cover;
-  display: block;
-  float: right;  
-  border-radius: 10px;
-}
-
 .btn-container {
   display: flex;
   margin-top: 30px;
+  margin-left: 0px;
+}
+
+.btn {
+  width: 200px;
 }
   
 .icon-box {
-  margin-left: 10px;
+  margin-left: 15px;
   display: flex;
   flex-direction: row;
   margin-top: 0;
@@ -65,12 +57,22 @@
 }
   
 .bttn {
+  display: flex;
   width: 100%;
   margin-left: 10px;
 }
 
-.icon {
-  margin-left: 0px;
+.hero-img {
+  width: 50%;
+  /* padding: 50px; */
+}
+
+.myImage { 
+  width: 70%;
+  object-fit: cover;
+  display: block;
+  float: right;  
+  border-radius: 10px;
 }
 
 @media screen and (max-width: 600px) {
