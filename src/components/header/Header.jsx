@@ -1,5 +1,4 @@
 import "./header.css"
-import Hero from "../hero/Heros.jsx";
 import '../body/body.css'
 
 function Header() {
@@ -19,11 +18,7 @@ function Header() {
               </ul>
           </nav>
         </div>
-      </div>
-
-      <div>
-        <Hero />
-      </div>
+      </div>      
     </>
   )
 }
