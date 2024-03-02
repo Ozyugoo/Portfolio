@@ -20,6 +20,7 @@ function About() {
           </p>
         </section>
       </section>
+      
     </>
   )
 }

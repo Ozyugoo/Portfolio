@@ -1,96 +1,137 @@
+* {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .hero-container {
-  display: block;
-}
-
-.self-intro, .hero-img {
-    margin-top: 10px;
-    margin-left: 55px;
-    margin-bottom: 50px;
-  }
-  
-  .self-intro > p {
-    font-size: 12px;
-    font-weight: 100;
-    margin: 20px 0;
-  }
-
- .myImage {
-    width: 250px;
-    height: 340px;
-    object-fit: cover;
-    display: block;
-    float: right;
-}
-
-.btn-container {
+  width: 100%;
+  padding: 10px;
   display: flex;
+  /* margin: auto; */
+  justify-content: center;
+  align-items: center;
 }
-.icon-box {
-  margin-left: 10px;
-  display: flex;
-  flex-direction: row;
-  margin-top: 0;
-}
-
-.bttn {
-  width: 70%;
-}
-
 
 .icon {
   color: rgb(237, 237, 159);
   width: 40px;
   height: 30px;
   margin-right: 10px;
+  margin-left: 0px;
 }
 
-@media screen and (min-width:700px) {
+.self {
+  font-size: 50px;
+}
 
+.self-intro {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.self-intro > p {
+  font-size: 12px;
+  font-weight: 200;
+  margin: 10px;
+  align-items: center;
+}
+
+.hero-img {
+  width: 100%;
+  /* padding: 50px; */
+}
+
+.myImage { 
+  width: 80%;
+  object-fit: cover;
+  display: block;
+  float: right;  
+  border-radius: 10px;
+}
+
+.btn-container {
+  display: flex;
+  margin-top: 30px;
+}
+  
+.icon-box {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 0;
+  width: 100%;
+}
+  
+.bttn {
+  width: 100%;
+  margin-left: 10px;
+}
+
+.icon {
+  margin-left: 0px;
+}
+
+@media screen and (max-width: 600px) {
   .hero-container {
-    display: flex;
+    display: block;
     width: 100%;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
+    padding: 0;
   }
 
-  .self-intro, .hero-img {
-    width: 45%;
+  .self h1 {
+    font-size: 45px;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+
+  .self-intro .col6 {
+    display: block;
+    width: 100%;
+    margin: 0;
+  }
+
+  .self-intro > p {
+    font-size: 14px;
+  }
+
+  .hero-img {  
+    width: 100%;  
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+  }
+
+  .hero-img img {
+    width: 100%;  
+    height: 67vh;  
   }
 
   .bttn {
-    width: 140px;
-  }
+    float: left;
+    width: 100%;
+    margin-left: 5px;
+    padding: 20px;
+   }
 
-  .icon {
-    margin-left: 0px;
-  }
+   .icon-box {
+    width: 100%;
+    margin-left: 10px;
+   }
 
-  /* @media screen and (width: 768px) { */
-    .hero-container {
-      margin: auto;
-      justify-content: center;
-      align-items: center;
-    }
+   .icon {
+    margin: 2px;
+   }
 
-    .self-intro, .hero-img {
-      margin-left: 0px;
-    }
-
-
-  .self {
-    font-size: 33px;
-  }
-
-    .myImage {
-      margin-right: 20px;
-      margin-left: 20px;
-    }
-
-    
-    .icon {
-      margin-left: 0px;
-    }
+  @media screen and (max-width: 300px) {
+    .self {
+      font-size: 32px;
+     }
 
   }
-  
+
+}
