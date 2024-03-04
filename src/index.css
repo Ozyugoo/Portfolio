@@ -1,19 +1,26 @@
 :root {
-  width: 100%;
-  margin: auto;
+   color-scheme: light dark;
+  --text-color: rgba(255, 255, 255, 0.87);
+  --overall-color: #181818;
+  --container-color: #000000;
+}
+
+* {
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #181818;
 }
 
 body {
-  background-color: #000000;
-  /* height: auto;  */
-  padding: 50px;  
-  margin: 30px;
+  padding: 50px;
+}
+
+.container {
+  width: 100%;
+  height: 90%;
+  background-color: var(--container-color);
+  margin: auto;
+  padding: 50px;
   place-items: center;
   box-shadow: 3px 5px 10px #2c2b2b;
   border-radius: 10px;
@@ -27,7 +34,7 @@ hr {
 }
 
 button {
-  color: #000000;
+  color: var(--container-color);
   background-color: rgb(237, 237, 159);
   padding: 10px;
   font-size: 12px;
