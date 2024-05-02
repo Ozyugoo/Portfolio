@@ -1,30 +1,35 @@
 import "./main.css";
 import Hero from "./hero/Heros.jsx";
-import Project from "./Project.jsx";
+import Project from "./projects/Project.jsx";
 import About from "./about/AboutMe.jsx";
- 
+
 function Main() {
   return (
-    <> 
-      <div>
-        <Hero />
-      </div>
-      <div>
+    <>
+      <main className="main">
         <section>
-          <h2>Featured Projects</h2>
-          <p>Here are some of the selected projects that showcase my work and passion for front-end development.</p>
+          <Hero />
         </section>
-      </div>      
-      <section>
-        <Project />
-      </section>
-     
-      <section>
-        <About />
-      <hr />
-      </section>
+        <section>
+          <section>
+            <h2 className="my-6 text-3xl font-bold">FEATURED PROJECTS</h2>
+            <p className="my-4">
+              Here are some of the selected projects that showcase my work and
+              passion for front-end development.
+            </p>
+          </section>
+        </section>
+        <section>
+          <Project />
+        </section>
+
+        <section>
+          <About />
+          <hr />
+        </section>
+      </main>
     </>
-  )
+  );
 }
 
-export default Main
+export default Main;

@@ -4,10 +4,10 @@ import Contact from "../footer/contact/Contact"
 function Footer() {
   return (
     <>
-      <section>
+      <footer>
         <Contact />
         <hr />
-      </section>
+      </footer>
     </>
   )
 }

@@ -8,7 +8,10 @@ const data = [
     id: 1,
     image: image1,
     content: 'Age Calculator for knowledge check',
-    description: 'Worked on a design to bring to life the beautiful and functional age calculator. This calculator takes in the date, month and year of birth in number of a user, calculates and displays the the user&#39;s age in years, month and day respectively.'
+    description: 'Worked on a design to bring to life the beautiful and functional age calculator. This calculator takes in the date, month and year of birth in number of a user, calculates and displays the the user&#39;s age in years, month and day respectively.',
+    info: 'PROJECT INFO',
+    year: 2024,
+    role: 'Front-end Developer'
   },
 
   {

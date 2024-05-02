@@ -3,7 +3,7 @@ import FontIcon from "../../main/hero/FontIcon"
 function Contact() {
   return (
     <>
-      <div className="col12">
+      <section className="col12">
       <section className="col6">
         <h2>Let&#39;s Connect</h2>
         <p>Say hello at stellaoziomaug@gmail.com</p>
@@ -23,7 +23,7 @@ function Contact() {
             <button type="submit">Submit</button>           
         </form>
       </section>
-      </div>
+      </section>
     </>
   )
 }

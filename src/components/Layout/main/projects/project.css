@@ -1,0 +1,27 @@
+@tailwind components;
+
+@layer components {
+  .imgContainer {
+    @apply w-full;
+  }
+
+  .itemContainer {
+    @apply w-full;
+  }
+
+  .imgBox {
+    @apply w-full my-8 mr-6 h-full bg-customGray;
+  }
+
+  .descContainer {
+    @apply w-full my-8 text-lg text-gray-200 mt-32;
+  }
+
+  .content-title {
+    @apply text-2xl font-bold text-center mb-2;
+  }
+
+  .image {
+    @apply w-4/5 h-auto rounded-3xl;
+  }
+}
