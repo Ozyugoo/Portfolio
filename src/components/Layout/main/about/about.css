@@ -1,0 +1,41 @@
+@tailwind components;
+
+@layer components {
+  .aboutContainer {
+    @apply mt-24 w-full lg:flex justify-between mb-16 lg:px-12;
+  }
+
+  .aboutHeading {
+    @apply lg:float-left w-full font-bold lg:text-8xl justify-center mt-24 mb-8 text-5xl;
+  }
+
+  .aboutDesc {
+    @apply w-full float-right;
+  }
+
+  .about {
+    @apply lg:text-2xl mb-6 font-medium text-lg;
+  }
+
+  .aboutBody {
+    @apply text-gray-300;
+  }
+
+  .resumeContainer {
+    @apply bg-customYellow text-black lg:w-52 font-bold rounded-2xl py-2 text-center w-48 text-sm;
+  }
+
+  .downloadIcon {
+    @apply float-right lg:ml-5 cursor-pointer ml-3;
+  }
+
+  .flexIcon {
+    @apply flex my-8 w-full justify-evenly;
+  }
+  .selfie {
+    @apply lg:w-[48rem] m-auto  lg:mb-36 mt-24;
+  }
+  .selfie > img {
+    @apply m-auto w-full rounded-2xl object-contain lg:h-auto;
+  }
+}

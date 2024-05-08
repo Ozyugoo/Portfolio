@@ -1,0 +1,48 @@
+@tailwind components;
+
+@layer components {
+  .contactContainer {
+    @apply lg:flex lg:px-24 px-5 w-full justify-between mt-14;
+  }
+
+  .connect { 
+    @apply w-full;
+  }
+
+  .headConnect {
+    @apply font-bold lg:text-7xl text-5xl w-full lg:mt-24;
+  }
+
+  .connect p {
+    @apply font-light text-gray-300 my-5;
+  }
+
+  .formContainer {
+    @apply w-full;
+  }
+
+  .icon {
+    @apply text-4xl;
+  }
+
+  .formContainer label {
+    @apply block text-gray-400 my-3 ;
+  }
+
+  .formContainer input,
+  textarea {
+    @apply bg-customGray w-full h-10 rounded-lg;
+  }
+
+  .formContainer textarea {
+    @apply h-28 mb-6;
+  }
+
+  .btns {
+    @apply rounded-3xl text-sm p-1  w-28 text-center bg-customYellow text-black font-black m-auto;
+  }
+
+  .copy {
+    @apply mb-2 px-2 mt-4 lg:mt-0;
+  }
+}

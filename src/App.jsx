@@ -1,15 +1,33 @@
-import Header from "./components/Layout/header/Header";
-import Main from "./components/Layout/main/Main";
-import Footer from "./components/Layout/footer/Footer";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Home from "./pages/Home.jsx";
+import About from "./pages/About.jsx";
+import Project from "./pages/Projects.jsx";
 import "../src/index.css";
+
+const router = createBrowserRouter([
+  {
+    path: "",
+    element: <Home />,
+  },
+  {
+    path: "Home",
+    element: <Home />,
+  },
+  {
+    path: "Project",
+    element: <Project />,
+  },
+  {
+    path: "About",
+    element: <About />,
+  },
+]);
 
 function App() {
   return (
-    <div className="container">
+    <div>
       <section className="container-box">
-        <Header />
-        <Main />
-        <Footer />
+        <RouterProvider router={router} />
       </section>
     </div>
   );

@@ -1,15 +1,13 @@
-
-import Contact from "../footer/contact/Contact"
+import Contact from "../footer/contact/Contact";
 
 function Footer() {
   return (
     <>
       <footer>
-        <Contact />
-        <hr />
+        <Contact  />
       </footer>
     </>
-  )
+  );
 }
 
-export default Footer
+export default Footer;

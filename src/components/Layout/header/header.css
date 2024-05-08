@@ -2,12 +2,20 @@
 
 @layer components {
   .heading {
-    @apply flex justify-between items-center px-4 py-2 text-white;
+    @apply w-full lg:justify-between items-center px-4 py-4 text-white flex;
   }
 
-  .name,
+  .nav {
+    @apply float-right;
+  }
+
+  .name1,
   .name2 {
-    @apply text-lg font-bold;
+    @apply text-lg font-bold lg:float-left;
+  }
+
+  .header-container {
+    @apply flex w-full;
   }
 
   .nar-bar {
@@ -15,28 +23,14 @@
   }
 
   .nav-link {
-    @apply lg:flex lg:flex-row lg:items-center space-x-4;
+    @apply md:block lg:items-center space-x-4;
   }
 
   .btn-menu {
     @apply text-gray-200 hover:text-white focus:outline-none focus:text-white;
   }
 
-  @media screen and (max-width: 600px) {
-    .name {
-      @apply flex visible
-      /* display: flex;
-      visibility: visible; */;
-    }
-
-    .name2 {
-      @apply hidden invisible;
-      /* display: none;
-      visibility: hidden; */
-    }
-
-    ul.navlink a {
-      @apply block;
-    }
+  ul.navlink a {
+    @apply md:block;
   }
 }

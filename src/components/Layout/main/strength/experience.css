@@ -1,0 +1,22 @@
+@tailwind components;
+
+@layer components {
+  .expContainer {
+    @apply w-full mt-12 lg:flex place-content-between mb-10;
+  }
+
+  .expHeader {
+    @apply w-full lg:text-7xl lg:flex text-4xl font-bold lg:mt-52 mt-6;
+  }
+
+  .expBody {
+    @apply w-full text-gray-300;
+  }
+
+  .bodyHeader {
+    @apply lg:flex justify-between font-semibold my-4 lg:mx-4
+  }
+  .bodyHeader h3 {
+    @apply text-2xl
+  }
+}

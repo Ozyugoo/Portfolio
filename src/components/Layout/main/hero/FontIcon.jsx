@@ -10,6 +10,7 @@ function FontIcon() {
       <a href="https://www.linkedin.com/in/stellaozioma" className="icon">
         <FontAwesomeIcon icon={faLinkedin} />
       </a>
+      
     </div>
   );
 }

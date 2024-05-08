@@ -1,6 +1,8 @@
 import myImage from "/src/assets/Hero-image2.png";
 import "./hero.css";
 import FontIcon from "./FontIcon";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 
 function Hero() {
   return (
@@ -13,16 +15,16 @@ function Hero() {
           </h1>
 
           <p className="description">
-            An ardent front-end developer specialized in building responsive
-            website with regards to accessibility. I profer solutions to
-            software development issues and I am passionate about creating a
-            green digital product.
+            I thrive on bringing creativity and functionality to the forefront
+            of every project, with fervent commitment to crafting sustainable,
+            eco-conscious digital products.
           </p>
 
-          <section className="btn-container flex mb-4">
+          <section className="btn-container">
             <section className="bttn">
               <button className="btn">
-                Download Resume&nbsp;<em>&#x2022;</em>
+                Download Resume&nbsp;
+                <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
               </button>
             </section>
 

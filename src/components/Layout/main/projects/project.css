@@ -6,22 +6,50 @@
   }
 
   .itemContainer {
-    @apply w-full;
+    @apply w-full lg:flex justify-between;
   }
 
   .imgBox {
-    @apply w-full my-8 mr-6 h-full bg-customGray;
+    @apply w-full my-8 mr-6 lg:pt-10 lg:h-[30rem] bg-customGray h-96 pt-6 rounded-2xl;
+  }
+
+  .idea {
+    @apply mb-4 ml-6 w-32 bg-black text-center p-2 rounded-2xl font-semibold;
   }
 
   .descContainer {
-    @apply w-full my-8 text-lg text-gray-200 mt-32;
+    @apply w-full my-8 text-lg text-gray-200 mt-24;
   }
 
   .content-title {
     @apply text-2xl font-bold text-center mb-2;
   }
 
+  .content-description {
+    @apply text-lg text-gray-200 text-justify;
+  }
+
   .image {
-    @apply w-4/5 h-auto rounded-3xl;
+    @apply w-4/5 lg:h-[23rem] rounded-3xl m-auto h-72 sm:h-72 object-contain lg:object-cover;
+  }
+
+  .info {
+    @apply mt-4;
+  }
+
+  .projectView {
+    @apply text-customYellow flex border-b-2 w-auto border-customYellow mt-4 text-sm;
+  }
+
+  .icons {
+    @apply pt-2 ml-4;
+  }
+
+  .spaceTop {
+    @apply my-4;
+  }
+
+  .fullView {
+    @apply flex justify-between;
   }
 }
