@@ -31,8 +31,8 @@ function Project() {
                 </p>
                 <div className="fullView">
                   <p className="projectView">
-                    <a href="http://" className="viewLink">
-                      VIEW DEMO
+                    <a href={item.live} className="viewLink">
+                      LIVE DEMO
                       <FontAwesomeIcon
                         icon={faArrowUpRightFromSquare}
                         className="icons"
@@ -40,7 +40,7 @@ function Project() {
                     </a>
                   </p>
                   <p className="projectView">
-                    <a href="http://" className="viewLink">
+                    <a href={item.URL} className="viewLink">
                       VIEW ON GITHUB
                       <FontAwesomeIcon
                         icon={faArrowUpRightFromSquare}

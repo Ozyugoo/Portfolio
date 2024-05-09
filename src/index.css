@@ -5,8 +5,22 @@
 @tailwind components;
 
 @layer components {
-  .container{
-    @apply  bg-black text-white;
-   
+  .container {
+    @apply bg-black text-white;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-headFont;
+  }
+
+  p,
+  span,
+  em,
+  a,
+  li {
+    @apply font-bodyFont;
   }
 }

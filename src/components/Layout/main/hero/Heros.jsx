@@ -1,10 +1,18 @@
 import myImage from "/src/assets/Hero-image2.png";
 import "./hero.css";
 import FontIcon from "./FontIcon";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+import dotArrow from "../../../../assets/dotArrow.png";
+import Resume from "../../../../assets/document/StellaUgoo-Okonkwo_CV.pdf";
 
 function Hero() {
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = Resume;
+    link.download = "StellaUgoo-Okonkwo_CV.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <>
       <section className="hero-container">
@@ -22,9 +30,9 @@ function Hero() {
 
           <section className="btn-container">
             <section className="bttn">
-              <button className="btn">
-                Download Resume&nbsp;
-                <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+              <button className="btn" onClick={handleDownload}>
+                <p className="btnDload">Download Resume&nbsp;</p>
+                <img src={dotArrow} alt="" />
               </button>
             </section>
 

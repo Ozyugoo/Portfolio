@@ -5,6 +5,10 @@ export default {
     container: {
       padding: "2rem",
     },
+    fontFamily: {
+      headFont: ['"Bebas Neue", sans'],
+      bodyFont: ["Manrope, sans"],
+    },
     extend: {
       colors: {
         customYellow: "#d3e97a",

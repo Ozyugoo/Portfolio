@@ -1,6 +1,5 @@
 import "./header.css";
-import NavBar from "./NavBar";
-
+import NavBar from "./NavBar.jsx";
 import "../main/main.css";
 
 function Header() {
@@ -8,7 +7,7 @@ function Header() {
     <>
       <header className="heading">
         <section className="header-container">
-          <p className="name2 lg:visible">Stella Ugoo-Okonkwo</p>
+          <h4 className="name2">Stella Ugoo-Okonkwo</h4>
         </section>
         <section className="nav-bar">
           <NavBar />

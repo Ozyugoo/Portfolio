@@ -20,10 +20,10 @@ function AboutMe() {
         </section>
 
         <section className="aboutDesc">
-          <h4 className="about">
+          <p className="about">
             I am a front-end developer based in Nigeria. I have background in
             Science Laboratory Technology.
-          </h4>
+          </p>
 
           <p className="aboutBody">
             I am a passionate front-end developer actively seeking exciting

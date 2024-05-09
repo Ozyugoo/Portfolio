@@ -2,35 +2,43 @@
 
 @layer components {
   .heading {
-    @apply w-full lg:justify-between items-center px-4 py-4 text-white flex;
+    @apply w-full md:justify-between items-center py-4 text-white flex;
   }
 
   .nav {
-    @apply float-right;
+    @apply md:flex block;
   }
 
   .name1,
   .name2 {
-    @apply text-lg font-bold lg:float-left;
+    @apply min-[700px]:text-xl font-bold float-left;
+  }
+
+  .btn-menu {
+    @apply font-extrabold text-3xl;
   }
 
   .header-container {
     @apply flex w-full;
   }
 
-  .nar-bar {
-    @apply text-2xl cursor-pointer;
-  }
-
   .nav-link {
-    @apply md:block lg:items-center space-x-4;
+    @apply max-[767px]:bg-customGray max-[767px]:top-0 max-[767px]:w-48 max-[767px]:right-0 max-[767px]:h-full max-[767px]:absolute max-[767px]:py-6 max-[767px]:pl-8;
   }
 
-  .btn-menu {
-    @apply text-gray-200 hover:text-white focus:outline-none focus:text-white;
+  .navList {
+    @apply hover:text-gray-300 mx-4 cursor-pointer;
   }
 
-  ul.navlink a {
-    @apply md:block;
+  .hambugBar {
+    @apply sm:block md:hidden relative;
+  }
+
+  .nav-link li {
+    @apply max-[767px]:my-8; 
+  }
+
+  .toggle {
+    @apply float-right cursor-pointer md:hidden;
   }
 }

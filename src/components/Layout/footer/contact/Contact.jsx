@@ -1,6 +1,7 @@
 import FontIcon from "../../main/hero/FontIcon";
 import MyButton from "./Button";
 import "./contact.css";
+import Resume from "../../../../assets/document/StellaUgoo-Okonkwo_CV.pdf"
 
 function Contact() {
   return (
@@ -18,7 +19,7 @@ function Contact() {
             </a>
           </p>
           <p>
-            For more info, here&#39;s my <link></link>
+            For more info, here&#39;s my <a href={Resume} className="CV">resume</a>
           </p>
           <FontIcon />
         </section>

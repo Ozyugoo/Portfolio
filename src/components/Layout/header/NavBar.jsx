@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-
+import { Link as Scroll } from "react-scroll";
 
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,61 +15,57 @@ function NavBar() {
 
   return (
     <div className="nav">
-      
-        <nav>
-          <div >
-            <button
-              onClick={toggleMenu}
-              className="btn-menu block font-extrabold text-3xl lg:hidden"
+      <nav>
+        <div className="btn-menu">
+          <div onClick={toggleMenu}>
+            <svg
+              className="hambugBar"
+              width="44"
+              height="40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              ☰
-            </button>
+              <path d="M6 16h32M6 28h32" stroke="#C7C7C7" strokeWidth="2" />
+            </svg>
           </div>
-          <ul
-            className={`"nav-link lg:flex lg:visible" ${
-              isOpen ? "block" : "hidden"
-            }`}
+        </div>
+        <ul
+          className={`nav-link md:flex md:visible ${
+            isOpen ? "block" : "hidden"
+          }`}
+        >
+          <p onClick={toggleMenu} className="toggle">
+            &#10006;
+          </p>
+          <li>
+            <Link to="/" className="navList" onClick={closeMenu}>
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link to="/project" className="navList" onClick={closeMenu}>
+              Project
+            </Link>
+          </li>
+          <li>
+            <Link to="/about" onClick={closeMenu} className="navList">
+              About
+            </Link>
+          </li>
+          <Scroll
+            className="navList"
+            onClick={closeMenu}
+            activeClass="active"
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
           >
-            <li>
-              <Link
-                to="/home"
-                className="hover:text-gray-300 mx-4"
-                onClick={closeMenu}
-              >
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/project"
-                className="hover:text-gray-300 mx-4"
-                onClick={closeMenu}
-              >
-                Project
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/about"
-                onClick={closeMenu}
-                className="hover:text-gray-300 mx-4"
-              >
-                About
-              </Link>
-            </li>
-            <li>
-              <a
-                href="#contact"
-                className="hover:text-gray-300 mx-4"
-                onClick={closeMenu}
-              >
-                Contact
-              </a>
-            </li>
-          </ul>
-        </nav>
-
-       
+            Contact
+          </Scroll>
+        </ul>
+      </nav>
     </div>
   );
 }

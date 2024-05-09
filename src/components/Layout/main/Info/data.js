@@ -14,6 +14,8 @@ const data = [
     year: 2023,
     role: "Front-end Developer",
     idea: "Challenge",
+    URL: "https://github.com/Ozyugoo/Age-Calculator",
+    live: "https://ozyugoo.github.io/Age-Calculator/",
   },
 
   {
@@ -26,6 +28,8 @@ const data = [
     year: 2023,
     role: "Front-end Developer",
     idea: "Practice",
+    URL: "https://github.com/Ozyugoo/landing-page",
+    live: "https://ozyugoo.github.io/landing-page/",
   },
 
   {
@@ -38,6 +42,8 @@ const data = [
     year: 2023,
     role: "Front-end Developer",
     idea: "Challenge",
+    URL: "https://github.com/Ozyugoo/todo-app-main",
+    live: "https://ozyugoo.github.io/todo-app-main/",
   },
 ];
 

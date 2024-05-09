@@ -7,6 +7,6 @@
   }
 
   .featured {
-    @apply sm:text-sm lg:text-4xl text-2xl font-bold;
+    @apply max-[767px]:text-2xl min-[768px]:text-4xl mt-7 font-bold;
   }
 }

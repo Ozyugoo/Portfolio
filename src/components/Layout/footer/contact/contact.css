@@ -2,19 +2,23 @@
 
 @layer components {
   .contactContainer {
-    @apply lg:flex lg:px-24 px-5 w-full justify-between mt-14;
+    @apply min-[768px]:flex px-5 w-full justify-between mt-14;
   }
 
-  .connect { 
+  .connect {
     @apply w-full;
   }
 
   .headConnect {
-    @apply font-bold lg:text-7xl text-5xl w-full lg:mt-24;
+    @apply font-bold min-[768px]:text-7xl text-5xl w-full min-[768px]:mt-24;
   }
 
   .connect p {
     @apply font-light text-gray-300 my-5;
+  }
+
+  .CV {
+    @apply text-customYellow
   }
 
   .formContainer {
@@ -26,7 +30,7 @@
   }
 
   .formContainer label {
-    @apply block text-gray-400 my-3 ;
+    @apply block text-gray-400 my-3;
   }
 
   .formContainer input,
@@ -43,6 +47,6 @@
   }
 
   .copy {
-    @apply mb-2 px-2 mt-4 lg:mt-0;
+    @apply pb-2 px-2 mt-4 min-[768px]:mt-0;
   }
 }

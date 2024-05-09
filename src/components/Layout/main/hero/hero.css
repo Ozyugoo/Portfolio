@@ -2,26 +2,30 @@
 
 @layer components {
   .hero-container {
-    @apply mb-16 lg:w-full lg:flex mt-12;
+    @apply mb-16 min-[768px]:w-full min-[768px]:flex mt-12;
   }
   .self {
-    @apply lg:text-7xl font-bold mt-16 text-gray-100 text-4xl w-full mb-6;
+    @apply min-[768px]:text-7xl font-bold mt-16 text-gray-100 text-4xl w-full mb-6 min-[768px]:tracking-wide;
   }
 
   .description {
-    @apply font-light lg:text-xl w-full;
+    @apply font-light min-[768px]:text-xl w-full;
   }
 
   .btn-container {
-    @apply lg:w-full flex my-8 ;
+    @apply min-[768px]:w-full flex items-center mt-6 mb-7;
   }
 
   .btn {
-    @apply bg-customYellow text-black lg:p-3 rounded-3xl font-bold text-sm p-2 mt-2 w-44 lg:w-52 justify-start;
+    @apply bg-customYellow text-black min-[768px]:p-3 rounded-3xl font-bold text-sm p-2 mt-2 w-48 min-[768px]:w-52 justify-between flex;
+  }
+
+  .btnDload {
+    @apply items-center justify-center pt-2;
   }
 
   .icon {
-    @apply text-customYellow lg:ml-12 lg:mr-2 lg:text-5xl p-2 text-4xl w-14 text-center rounded-full sm:text-3xl bg-gray-900 ;
+    @apply text-customYellow min-[768px]:ml-12 min-[768px]:mr-2 min-[768px]:text-5xl text-4xl w-14 text-center rounded-full max-[767px]:text-3xl max-[767px]:w-12 max-[767px]:mx-2;
   }
 
   .hero-img {
