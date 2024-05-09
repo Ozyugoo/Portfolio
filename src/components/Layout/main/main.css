@@ -2,11 +2,11 @@
 
 @layer components {
   .main {
-    @apply p-8;
-    background-color: #000000;
+    @apply bg-black;
+   
   }
 
   .featured {
-    @apply sm:text-sm my-6 lg:text-4xl text-2xl font-bold;
+    @apply sm:text-sm lg:text-4xl text-2xl font-bold;
   }
 }

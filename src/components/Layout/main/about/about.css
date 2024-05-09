@@ -21,21 +21,24 @@
     @apply text-gray-300;
   }
 
-  .resumeContainer {
-    @apply bg-customYellow text-black lg:w-52 font-bold rounded-2xl py-2 text-center w-48 text-sm;
+  .btnDiv {
+    @apply flex items-center justify-between bg-customYellow text-black font-bold rounded-3xl lg:w-52 w-48 text-sm lg:px-4 py-2 px-2;
   }
 
   .downloadIcon {
-    @apply float-right lg:ml-5 cursor-pointer ml-3;
+    @apply float-right cursor-pointer;
   }
 
   .flexIcon {
     @apply flex my-8 w-full justify-evenly;
   }
+
   .selfie {
     @apply lg:w-[48rem] m-auto  lg:mb-36 mt-24;
   }
+
   .selfie > img {
     @apply m-auto w-full rounded-2xl object-contain lg:h-auto;
   }
+  
 }
