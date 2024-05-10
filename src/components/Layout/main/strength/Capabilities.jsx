@@ -1,4 +1,4 @@
-import "./capability.css"
+import "./capability.css";
 
 function Capabilities() {
   return (
@@ -25,6 +25,7 @@ function Capabilities() {
               <li className="list">BOOTSTRAP</li>
               <li className="list">REACT JS</li>
               <li className="list">SASS</li>
+              <li className="list">OCaml</li>
             </ul>
           </section>
         </section>
@@ -34,4 +35,4 @@ function Capabilities() {
   );
 }
 
-export default Capabilities
+export default Capabilities;
