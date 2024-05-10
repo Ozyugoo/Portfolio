@@ -1,4 +1,9 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import {
+  createBrowserRouter,
+  BrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import { createRoot } from "react-dom";
 import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
 import Project from "./pages/Projects.jsx";
@@ -40,5 +45,13 @@ function App() {
     </div>
   );
 }
+
+const root = createRoot(document.getElementById("root"));
+
+root.render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
+);
 
 export default App;
