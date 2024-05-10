@@ -1,3 +1,4 @@
+import Image from "../../../../assets/IMG-bg.png"
 import "./about.css";
 import ResumeButton from "./ResumeButton.jsx";
 import FontIcon from "../hero/FontIcon.jsx";
@@ -9,8 +10,7 @@ function AboutMe() {
     <>
       <section className="selfie">
         <img
-          src="./src/assets/img-bg.png
-        "
+          src={Image}
           alt="My Image"
         />
       </section>
