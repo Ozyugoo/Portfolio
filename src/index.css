@@ -6,7 +6,7 @@
 
 @layer components {
   .container {
-    @apply bg-black text-white;
+    @apply bg-black text-white w-full min-[768px]:w-full min-[790px]:w-screen lg:w-full md:w-full;
   }
 
   h1,
