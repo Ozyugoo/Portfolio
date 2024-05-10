@@ -6,12 +6,11 @@
   }
 
   .capHead {
-    @apply w-full text-center mb-5 
-    mt-20;
+    @apply w-full text-center mb-5 ;
   }
 
   .capHeading {
-    @apply min-[768px]:text-7xl text-4xl font-black;
+    @apply min-[768px]:text-8xl text-4xl font-black min-[768px]:items-center;
   }
 
   .capBody {

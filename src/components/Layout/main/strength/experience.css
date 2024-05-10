@@ -2,11 +2,11 @@
 
 @layer components {
   .expContainer {
-    @apply w-full mt-12 lg:flex place-content-between mb-10;
+    @apply w-full mt-12 min-[768px]:flex place-content-between mb-10;
   }
 
   .expHeader {
-    @apply w-full lg:text-7xl lg:flex text-4xl font-bold lg:mt-52 mt-6;
+    @apply w-full min-[768px]:text-8xl min-[768px]:flex text-4xl font-bold min-[768px]:items-center mt-6;
   }
 
   .expBody {
@@ -14,9 +14,13 @@
   }
 
   .bodyHeader {
-    @apply lg:flex justify-between font-semibold my-4 lg:mx-4
+    @apply min-[768px]:flex justify-between font-semibold my-8
   }
   .bodyHeader h3 {
     @apply text-2xl
+  }
+
+  ul.listing li {
+    @apply list-disc;
   }
 }
