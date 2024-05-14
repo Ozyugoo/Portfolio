@@ -5,8 +5,12 @@
 @tailwind components;
 
 @layer components {
-  .container {
-    @apply bg-black text-white w-full min-[768px]:w-full min-[790px]:w-screen lg:w-full md:w-full;
+  * {
+    @apply m-0 p-0;
+  }
+
+  .body {
+    @apply bg-black text-white items-center  md:flex px-4 w-full;
   }
 
   h1,

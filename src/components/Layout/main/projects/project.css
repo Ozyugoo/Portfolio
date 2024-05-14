@@ -2,15 +2,15 @@
 
 @layer components {
   .imgContainer {
-    @apply w-full;
+    @apply w-[96%];
   }
 
   .itemContainer {
-    @apply w-full lg:flex justify-between;
+    @apply w-full md:flex justify-between;
   }
 
   .imgBox {
-    @apply w-full my-8 mr-6 lg:pt-10 lg:h-[30rem] bg-customGray h-96 pt-6 rounded-2xl;
+    @apply w-full my-8 mr-6 md:pt-10 md:h-[30rem] bg-customGray h-96 pt-6 rounded-2xl;
   }
 
   .idea {
@@ -18,7 +18,7 @@
   }
 
   .descContainer {
-    @apply w-full my-8 text-lg text-gray-200 mt-24;
+    @apply my-8 text-lg text-gray-200 mt-24 w-full;
   }
 
   .content-title {
@@ -30,7 +30,7 @@
   }
 
   .image {
-    @apply w-4/5 lg:h-[23rem] rounded-3xl m-auto h-72 sm:h-72 object-contain lg:object-cover;
+    @apply w-[80%] lg:h-[23rem] rounded-3xl m-auto h-72 sm:h-72 object-contain lg:object-cover;
   }
 
   .info {

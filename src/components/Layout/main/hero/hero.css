@@ -2,14 +2,14 @@
 
 @layer components {
   .hero-container {
-    @apply mb-16 min-[768px]:w-full min-[768px]:flex mt-12;
+    @apply mb-16 md:flex mt-12 w-full md:justify-between px-4 md:px-8;
   }
   .self {
-    @apply min-[768px]:text-7xl font-bold mt-16 text-gray-100 text-4xl w-full mb-6 min-[768px]:tracking-wide;
+    @apply lg:text-8xl font-bold mt-16 text-gray-100 text-4xl w-full mb-6 min-[768px]:tracking-wide;
   }
 
   .description {
-    @apply font-light min-[768px]:text-xl w-full;
+    @apply font-light md:text-xl w-full md:w-4/5;
   }
 
   .btn-container {
@@ -29,9 +29,9 @@
   }
 
   .hero-img {
-    @apply lg:w-[50rem] w-full;
+    @apply lg:w-full w-full;
   }
   .myImage {
-    @apply rounded-2xl w-auto;
+    @apply rounded-2xl w-full md:w-full;
   }
 }

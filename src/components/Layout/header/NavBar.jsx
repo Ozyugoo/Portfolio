@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Outlet, Link } from "react-router-dom";
 import { Link as Scroll } from "react-scroll";
 
 function NavBar() {
@@ -34,7 +34,7 @@ function NavBar() {
             isOpen ? "block" : "hidden"
           }`}
         >
-          <p onClick={toggleMenu} className="toggle">
+          <p onClick={closeMenu} className="toggle">
             &#10006;
           </p>
           <li>
@@ -52,20 +52,23 @@ function NavBar() {
               About
             </Link>
           </li>
-          <Scroll
-            className="navList"
-            onClick={closeMenu}
-            activeClass="active"
-            to="contact"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}
-          >
-            Contact
-          </Scroll>
+          <li>
+            <Scroll
+              className="navList"
+              onClick={closeMenu}
+              activeClass="active"
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Contact
+            </Scroll>
+          </li>
         </ul>
       </nav>
+      <Outlet />
     </div>
   );
 }
