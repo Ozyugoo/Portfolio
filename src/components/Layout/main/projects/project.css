@@ -10,7 +10,7 @@
   }
 
   .imgBox {
-    @apply w-full my-8 mr-6 md:pt-10 md:h-[30rem] bg-customGray h-96 pt-6 rounded-2xl;
+    @apply w-full my-8 mr-6 md:pt-10 lg:h-[30rem] md:h-96 bg-customGray h-96 pt-6 rounded-2xl;
   }
 
   .idea {
@@ -30,7 +30,7 @@
   }
 
   .image {
-    @apply w-[80%] lg:h-[23rem] rounded-3xl m-auto h-72 sm:h-72 object-contain lg:object-cover;
+    @apply w-[80%] lg:h-[23rem] rounded-3xl m-auto h-64 object-contain lg:object-cover;
   }
 
   .info {

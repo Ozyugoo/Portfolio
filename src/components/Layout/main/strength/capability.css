@@ -2,19 +2,19 @@
 
 @layer components {
   .capacityFlex {
-    @apply min-[768px]:flex w-full mt-24 mb-6;
+    @apply md:flex w-full mb-6;
   }
 
   .capHead {
-    @apply w-full text-center mb-5 ;
+    @apply w-full md:w-full text-center mb-5 md:items-center mt-28;
   }
 
   .capHeading {
-    @apply min-[768px]:text-8xl text-4xl font-black min-[768px]:items-center;
+    @apply lg:text-8xl text-5xl font-black w-full;
   }
 
   .capBody {
-    @apply text-lg text-gray-300;
+    @apply text-lg text-gray-300 w-full;
   }
 
   .listBox {
@@ -26,6 +26,6 @@
   }
 
   .list {
-    @apply border w-28 py-3 m-5 rounded-3xl text-sm mb-10 text-center;
+    @apply border lg:w-28 py-3 rounded-3xl text-sm mb-10 text-center w-24 m-3 lg:m-5;
   }
 }

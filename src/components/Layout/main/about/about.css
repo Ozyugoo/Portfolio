@@ -2,11 +2,11 @@
 
 @layer components {
   .aboutContainer {
-    @apply mt-24 w-full lg:flex justify-between mb-16 lg:px-12;
+    @apply mt-24 w-full md:flex justify-between mb-16 lg:px-12;
   }
 
   .aboutHeading {
-    @apply lg:float-left w-full font-bold lg:text-8xl justify-center mt-24 mb-8 text-5xl;
+    @apply w-full font-bold lg:text-8xl text-7xl justify-center mt-28 mb-8 items-center text-center;
   }
 
   .aboutDesc {
@@ -18,7 +18,7 @@
   }
 
   .aboutBody {
-    @apply text-gray-300;
+    @apply text-gray-300 w-full;
   }
 
   .btnDiv {

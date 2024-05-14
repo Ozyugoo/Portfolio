@@ -14,7 +14,7 @@ function Experience() {
               <span>Mar 2024 - Apr 2024</span>
             </div>
             <div>
-              <p>
+              <div>
                 <ul className="listing">
                   <li>
                     I had the privilege of contributing to OCaml.org during the
@@ -30,10 +30,10 @@ function Experience() {
                     collaboration and teamwork within version control systems.
                   </li>
                 </ul>
-              </p>
-              
+              </div>
+
               <br />
-              <p>
+              <div>
                 <ul className="listing">
                   <li>
                     Working alongside a diverse team, I not only contributed to
@@ -48,7 +48,7 @@ function Experience() {
                     team environment.
                   </li>
                 </ul>
-              </p>
+              </div>
             </div>
             <div>
               <div className="bodyHeader">
@@ -56,7 +56,7 @@ function Experience() {
                 <span>Apr 2024</span>
               </div>
 
-              <p>
+              <div>
                 <ul className="listing">
                   <li>
                     I had the privilege of leading a team of fellow developers
@@ -70,10 +70,10 @@ function Experience() {
                     throughout the development process.
                   </li>
                 </ul>
-              </p>
-              
+              </div>
+
               <br />
-              <p>
+              <div>
                 <ul className="listing">
                   <li>
                     Through effective communication and guidance, I facilitated
@@ -86,7 +86,7 @@ function Experience() {
                     leading to the successful completion of our project.
                   </li>
                 </ul>
-              </p>
+              </div>
             </div>
           </div>
         </section>

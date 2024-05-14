@@ -6,7 +6,7 @@
   }
 
   .expHeader {
-    @apply w-full min-[768px]:text-8xl min-[768px]:flex text-4xl font-bold min-[768px]:items-center mt-6;
+    @apply w-full md:text-6xl md:flex text-4xl font-bold md:items-center mt-6 lg:text-8xl md:text-center md:justify-center;
   }
 
   .expBody {
