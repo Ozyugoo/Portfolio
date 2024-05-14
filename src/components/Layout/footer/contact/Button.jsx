@@ -1,9 +1,10 @@
 
 function MyButton() {
-  const emailAddress = "stellaoziomaug@gmail.com";
+  // const emailAddress = "stellaoziomaug@gmail.com";
 
   const handleEmailSubmission = () => {
-    window.location.href = `mailto:${emailAddress}`;
+    window.location.href 
+    // = `mailto:${emailAddress}`;
   };
 
   return (
