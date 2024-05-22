@@ -2,7 +2,7 @@
 
 @layer components {
   .capacityFlex {
-    @apply md:flex w-full mb-6;
+    @apply md:flex w-full mb-6 md:my-14;
   }
 
   .capHead {
@@ -10,7 +10,7 @@
   }
 
   .capHeading {
-    @apply lg:text-8xl text-5xl font-black w-full;
+    @apply xl:text-8xl md:text-6xl text-5xl font-black w-full;
   }
 
   .capBody {

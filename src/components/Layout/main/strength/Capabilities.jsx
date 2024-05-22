@@ -21,7 +21,7 @@ function Capabilities() {
               <li className="list">GITHUB</li>
 
               <li className="list">JAVASCRIPT</li>
-              <li className="list">TAILWIND CSS</li>
+              <li className="list">TAILWIND</li>
               <li className="list">BOOTSTRAP</li>
               <li className="list">REACT JS</li>
               <li className="list">SASS</li>
