@@ -27,7 +27,7 @@ function Contact() {
           <FontIcon />
         </section>
         <section className="formContainer">
-          <form action="" method="post">
+          <form action="">
             <label htmlFor="names">Name</label>
             <input type="text" name="name" id="name" required />
             <label htmlFor="email">Email</label>
